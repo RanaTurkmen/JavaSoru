@@ -42,6 +42,11 @@ görünmelidir. Örneğin; "ali3" için kodunuz "Baş harflerinde hata", "Ad vey
             System.out.println("Geçersiz Ad");
         }
 
+        System.out.println(" Bugun de bitti cok sukur");
+
+        System.out.println("push");
+
+
 
     }
 }
