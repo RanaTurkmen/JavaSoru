@@ -1,6 +1,6 @@
 package javasorubankası;
 
-public class stringManipulation {
+public class sm01 {
     public static void main(String[] args) {
 
         /* 1) Sadece tek bir kelimeden oluşan şehir isimleri için bir String değişkeni oluşturun. Şehir

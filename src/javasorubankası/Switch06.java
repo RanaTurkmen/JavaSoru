@@ -16,9 +16,30 @@ e) Kullanıcı 10 ve -5 girdiğinde +, -, *, / 'den farklı bir işlem yaptığ�
          */
 
         Scanner input = new Scanner(System.in);
+        System.out.println("İki sayi girin");
         double sayi1= input.nextInt();
         double sayi2= input.nextInt();
-        System.out.println("");
+        System.out.println("Yapmak istediğiniz ilemi seçin . +, -, *, /");
+        String islem = input.next();
+
+        switch (islem){
+            case "+":
+                System.out.println(sayi1+sayi2);
+                break;
+            case "-":
+                System.out.println(sayi1-sayi2);
+                break;
+            case "*":
+                System.out.println(sayi1*sayi2);
+                break;
+            case "/":
+                System.out.println(sayi1/sayi2);
+                break;
+            default:
+                System.out.println("Geçersiz İşlem");
+        }
+
+
 
 
 
