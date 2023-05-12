@@ -20,6 +20,8 @@ e) Kullanıcı 10 ve -5 girdiğinde +, -, *, / 'den farklı bir işlem yaptığ�
         double sayi2= input.nextInt();
         System.out.println("");
 
+        System.out.println();
+
 
 
 
