@@ -46,6 +46,8 @@ public class Kdv {
         System.out.println("KDV'li Tutar = " + kdvliTutar);
 
 
+//naber
+
     }
 
 
